@@ -60,3 +60,20 @@ p {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
+
+@media screen and (min-width: 376px) {
+    .container {
+        width: 350px;
+        height: 530px;
+        padding: 15px 15px;
+    }
+
+    img {
+        margin-top: auto;
+        width: 100%;
+    }
+
+    p {
+        margin: 0 9%;
+    }
+}
