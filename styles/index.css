@@ -15,15 +15,10 @@ body {
 }
 
 .container {
-    /*Box Model*/
-    align-items: center;
-    width: 85vw;
-    height: 75vh;
-    padding: 2vh 2vw;
-
-    /*Visual*/
     background-color: white;
     border-radius: 20px;
+    max-width: 320px;
+    padding: 15px;
 }
 
 img {
@@ -62,19 +57,26 @@ p {
     color: hsl(220, 15%, 55%);
 }
 
-@media screen and (min-width: 376px) {
-    .container {
-        width: 350px;
-        height: 530px;
-        padding: 15px 15px;
-    }
+footer {
+    /*Box Model*/
+    padding-bottom: 5px;
 
+    /*Positioning*/
+    position: relative;
+    top: 15px;
+
+    /*Typography*/
+    font-size: 11px; 
+    text-align: center;
+}
+
+footer a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 376px) {
     img {
         margin-top: auto;
         width: 100%;
     }
 
-    p {
-        margin: 0 9%;
-    }
+    p { margin: 0 9%; }
 }
