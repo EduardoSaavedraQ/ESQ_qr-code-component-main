@@ -47,12 +47,6 @@ I've worked with these two languages in some other college projects but I hadn't
 
 ```css
 @media screen and (min-width: 376px) {
-    .container {
-        width: 350px;
-        height: 530px;
-        padding: 15px 15px;
-    }
-
     img {
         margin-top: auto;
         width: 100%;
